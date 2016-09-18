@@ -1,4 +1,3 @@
-/* Layout */
     body {
       min-width: 630px;
     }
@@ -35,12 +34,9 @@
       clear: both;
     }
     
-    /* IE hack */
     * html #left {
       left: 150px;
     }
-
-    /* Make the columns the same height as each other */
     #container {
       overflow: hidden;
     }
@@ -48,8 +44,6 @@
     #container .column {
       padding-bottom: 1001em;
          }
-
-    /* Fix for the footer */
     * html body {
       overflow: hidden;
     }
@@ -63,18 +57,6 @@
       background: #fff;
     }
 
-    /* Aesthetics */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family:Sans-serif;
-      line-height: 1.5em;
-    }
-    
-    p {
-      color: #555;
-    }
-
     nav ul {
       list-style-type: none;
       margin: 0;
@@ -85,7 +67,9 @@
       color: darkgreen;
       text-decoration: none;
     }
-
+    p {
+      color: #555;
+    }
     #header, #footer {
       font-size: large;
       padding: 0.3em;
@@ -147,7 +131,6 @@
     padding-left: 160px;
     width: 30%;
 }table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
